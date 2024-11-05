@@ -53,8 +53,8 @@ button {
 			fill: none;
 			width: 100%;
 			height: calc(100% - 2px);
-			stroke-dasharray: 500;
-			stroke-dashoffset: -500;
+			stroke-dasharray: 600;
+			stroke-dashoffset: -600;
 			transition: .75s;
 		}
 	}
@@ -83,7 +83,7 @@ button {
 					0 0 2.5em rgba(0, 255, 0, 1);
 	}
 	&:hover svg rect {
-		stroke-dasharray: 500;
+		stroke-dasharray: 600;
 		stroke-dashoffset: 0;
 	}
 }
