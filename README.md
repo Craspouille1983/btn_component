@@ -33,4 +33,4 @@ Définit les styles CSS pour l'élément racine de l'application (#app), tels qu
 ## Le composant App :
 Affiche un bouton simple en utilisant directement buttonComponent.
 Utilise une boucle **v-for** pour créer plusieurs boutons à partir du tableau buttons.
-Chaque bouton affiche le texte correspondant à l'élément actuel de la boucle grâce à **v-bind:modelValue**.
+Chaque bouton affiche le texte correspondant à l'élément actuel de la boucle grâce à **v-bind:modelValue** ou **:modelValue**.
