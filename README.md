@@ -20,9 +20,9 @@ Ce code Vue.js présente un composant réutilisable (buttonComponent) représent
 
 **name:** Donne un nom au composant pour faciliter l'identification.
 
-**components:** Enregistre le composant buttonComponent comme un composant enfant.
+**components :** Enregistre le composant buttonComponent comme un composant enfant.
 
-**data:** Définit les données du composant, notamment le tableau buttons contenant les informations pour chaque bouton (ID et texte).
+**data :** Définit les données du composant, notamment le tableau buttons contenant les informations pour chaque bouton (ID et texte).
 
 ## Styles (style) :
 
