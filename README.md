@@ -27,7 +27,7 @@ Ce code Vue.js présente un composant réutilisable (buttonComponent) représent
 ## Styles (style) :
 
 Définit les styles CSS pour l'élément racine de l'application (#app), tels que la police, l'alignement du texte et les marges.
-Fonctionnement détaillé
+### Fonctionnement détaillé
 **Le composant buttonComponent** : Ce composant définit la structure et le comportement de base d'un bouton. Il peut accepter des props pour personnaliser son apparence, son comportement ou simplement son texte.
 
 ## Le composant App :
