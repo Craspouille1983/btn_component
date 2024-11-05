@@ -7,7 +7,6 @@ Ce code Vue.js présente un composant réutilisable (buttonComponent) représent
 ## Template (template) :
 
 **Bouton simple :** Un bouton avec le texte de la props d'origine.
-
 **Bouton simple :** Un bouton avec le texte "Je suis un bouton" est affiché directement.
 **Bouton dynamique :** Une boucle v-for parcourt un tableau de boutons (buttons) et affiche un buttonComponent pour chaque élément. Le texte du bouton est défini dynamiquement à l'aide de v-bind:modelValue (ou sa forme abrégée :modelValue). L'attribut key est utilisé pour que Vue puisse suivre efficacement les éléments de la liste et effectuer les mises à jour nécessaires.
 
