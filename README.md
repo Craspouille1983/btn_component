@@ -18,7 +18,7 @@ Ce code Vue.js présente un composant réutilisable (buttonComponent) représent
 
 **Définition du composant principal :** Le composant App est défini :
 
-**name:** Donne un nom au composant pour faciliter l'identification.
+**name :** Donne un nom au composant pour faciliter l'identification.
 
 **components :** Enregistre le composant buttonComponent comme un composant enfant.
 
