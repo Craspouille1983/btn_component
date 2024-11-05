@@ -1,5 +1,8 @@
 <template>
-  <!-- Bouton simple sans boucle -->
+  <!-- Bouton simple sans modification de la props -->
+  <buttonComponent />
+  <br />
+  <!-- Bouton simple sans boucle avec modification de la props -->
   <buttonComponent modelValue="Je suis un bouton" />
    <!-- Bouton simple avec boucle  -->
   <div v-for="button in buttons" :key="`button${button.id}`">
