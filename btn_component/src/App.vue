@@ -1,6 +1,9 @@
 <template>
+  <!-- Bouton simple sans boucle -->
   <buttonComponent modelValue="Je suis un bouton" />
+   <!-- Bouton simple avec boucle  -->
   <div v-for="button in buttons" :key="`button${button.id}`">
+    <!-- Utilisation du v-bind dont le raccourci est : pour changer la props -->
     <buttonComponent :modelValue="button.text" />
   </div>
 </template>
